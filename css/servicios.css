@@ -1,0 +1,56 @@
+@import url("main.css");
+
+/* Estilos exclusivos de Productos y servicios */
+.pagina > h1 {
+  margin-bottom: 30px;
+}
+
+.pagina section {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+table caption {
+  padding: 10px;
+  color: #686868;
+  font-weight: bold;
+}
+
+table th,
+table td {
+  padding: 12px;
+  border: 1px solid #d7d2c8;
+  text-align: left;
+}
+
+table th {
+  background-color: #e95d36;
+  color: white;
+}
+
+.servicios-lista {
+  padding: 25px;
+  background-color: #e9e3d9;
+}
+
+.servicios-lista li {
+  margin-bottom: 10px;
+}
+
+.video {
+  text-align: center;
+}
+
+/* Selector por atributo: el iframe cuyo título sea el del video */
+iframe[title="Video institucional de Moda Urbana"] {
+  width: 80%;
+  height: 350px;
+  border: 3px solid #e95d36;
+}

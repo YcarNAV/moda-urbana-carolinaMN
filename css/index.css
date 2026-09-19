@@ -1,0 +1,85 @@
+@import url("main.css");
+
+/* Estilos exclusivos de la página Inicio */
+.portada {
+  padding: 70px 10%;
+  background-color: #e9e3d9;
+  border-bottom: 5px solid #e95d36;
+  text-align: center;
+}
+
+.portada h1 {
+  margin-bottom: 15px;
+  font-size: 42px;
+}
+
+.portada p {
+  max-width: 600px;
+  margin: 0 auto 25px auto;
+  font-size: 18px;
+}
+
+#galeria {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.galeria {
+  text-align: center;
+}
+
+.galeria figure {
+  display: inline-block;
+  width: 28%;
+  margin: 1%;
+  vertical-align: top;
+  background-color: white;
+  border: 1px solid #d7d2c8;
+}
+
+.galeria img {
+  width: 100%;
+}
+
+.galeria figcaption {
+  padding: 12px;
+  font-weight: bold;
+}
+
+/* Selector por atributo: todas las imágenes que tengan texto alternativo */
+img[alt] {
+  border-bottom: 3px solid #e95d36;
+}
+
+.beneficios {
+  margin-top: 15px;
+  margin-bottom: 35px;
+  padding: 25px;
+  background-color: #e9e3d9;
+}
+
+.beneficios ul {
+  padding-left: 25px;
+}
+
+.beneficios li {
+  margin-bottom: 8px;
+}
+
+.aviso {
+  margin: 20px;
+  padding: 15px;
+  background-color: #e95d36;
+  color: white;
+  text-align: center;
+}
+
+.aviso p {
+  display: inline;
+}
+
+.aviso a {
+  margin-left: 10px;
+  color: white;
+  font-weight: bold;
+}

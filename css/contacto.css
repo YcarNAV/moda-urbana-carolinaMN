@@ -1,0 +1,51 @@
+@import url("main.css");
+
+/* Estilos exclusivos de Contacto */
+.contacto-grid section {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: white;
+  border: 1px solid #d7d2c8;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #686868;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Selectores por atributo */
+input[type="text"] {
+  border-left: 4px solid #e95d36;
+}
+
+textarea[required] {
+  border: 2px dashed #e95d36;
+}
+
+.mapa {
+  display: block;
+  width: 80%;
+  height: 350px;
+  margin: 15px auto;
+  border: 3px solid #e95d36;
+}

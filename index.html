@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tienda de ropa urbana">
+  <meta name="keywords" content="ropa, urbana, moda, tienda">
+  <meta name="author" content="Carolina Montoya Navarro">
+
+  <!-- Mientras estás creando el sitio evita que Google lo indexe -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>Moda Urbana | Inicio</title>
+
+  <!-- El favicon debe existir dentro de la carpeta del proyecto -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Información que se muestra al compartir la web en redes sociales -->
+  <meta property="og:title" content="Moda Urbana">
+  <meta property="og:description" content="Tienda de ropa urbana">
+  <meta property="og:image" content="https://ejemplo.com/imagen.jpg">
+  <meta property="og:url" content="https://modaurbana.com">
+  <meta property="og:type" content="website">
+
+  
+  <link rel="canonical" href="https://www.modaurbana.com">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- CSS compartido y CSS exclusivo de Inicio -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+
+
+<body>
+  <header class="encabezado">
+    <a class="logo" href="index.html" title="Ir a la página principal de Moda Urbana">MODA <span>URBANA</span></a>
+    <nav aria-label="Navegación principal">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="pages/servicios.html">Productos y servicios</a></li>
+        <li><a href="pages/contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="portada" aria-labelledby="titulo-principal">
+      <div>
+        <p class="etiqueta">COLECCIÓN 2026</p>
+        <h1 id="titulo-principal">Tu personalidad reflejada de la mejor manera.</h1>
+        <p>Prendas cómodas, actuales y pensadas para acompañarte en cada ocasión.</p>
+        <a class="boton" href="#galeria">Ver colección</a>
+      </div>
+    </section>
+
+    <section id="galeria" class="contenedor" aria-labelledby="titulo-galeria">
+      <p class="etiqueta">DESTACADOS</p>
+      <h2 id="titulo-galeria">Galería urbana</h2>
+      <div class="galeria">
+        <figure>
+          <img src="img/ropacasual.jpg" width="80%" alt="Conjunto casual con sueter verde, jean y botas" title="Línea casual">
+          <figcaption>Línea casual</figcaption>
+        </figure>
+        <figure>
+          <img src="img/ropachic.jpg" width="80%" alt="Vestido chic de verano o primavera" title="Línea estilo chic">
+          <figcaption>Estilo chic</figcaption>
+        </figure>
+        <figure>
+          <img src="img/accesorios.jpg" width="80%" alt="Joyas moda urbana" title="Accesorios">
+          <figcaption>Accesorios</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="contenedor beneficios" aria-labelledby="titulo-beneficios">
+      <div>
+        <p class="etiqueta">¿POR QUÉ ELEGIRNOS?</p>
+        <h2 id="titulo-beneficios">Diseñamos para moverte</h2>
+      </div>
+      <ul>
+        <li>Diseños versátiles para cualquier plan.</li>
+        <li>Materiales cómodos y de excelente calidad.</li>
+        <li>Asesoría de estilo personalizada.</li>
+      </ul>
+    </section>
+  </main>
+
+  <aside class="aviso">
+    <p><strong>Envío gratis</strong> en compras superiores a $200.000.</p>
+    <a href="./pages/contacto.html">Quiero más información</a>
+  </aside>
+
+  <footer>
+    <p>&copy; 2026 Moda Urbana. Todos los derechos reservados.</p>
+    <p><a href="mailto:modaurbana@kmail.com">modaurbana@kmail.com</a> · Cartagena, Colombia</p>
+  </footer>
+</body>
+</html>
